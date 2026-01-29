@@ -1,0 +1,9 @@
+## 💻 Örnek Kod Kullanımı (Python)
+
+Sistem, türbin sıcaklık verilerini girdi olarak alır ve 1000°C üzerindeki değerleri otomatik olarak "DİKKAT" uyarısıyla işaretler:
+
+```python
+# Kritik eşik kontrolü ve anomali tespiti
+if sicaklik_degeri >= 1000.0:
+    print(f"⚠️ DİKKAT: {sicaklik_degeri} C")
+    anomaliler.append(sicaklik_degeri)
